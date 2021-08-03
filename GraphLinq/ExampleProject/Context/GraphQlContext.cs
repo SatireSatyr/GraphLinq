@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestApp.Context
+namespace ExampleProject.Context
 {
     class GraphQlContext : GraphQlContextBase
     {

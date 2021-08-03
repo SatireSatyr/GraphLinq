@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ExampleProject.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
-using TestApp.Context;
 
-namespace TestApp
+namespace ExampleProject
 {
     class Program
     {
