@@ -1,3 +1,6 @@
 GraphLinq/GraphLinq/obj/
 GraphLinq/.vs/GraphLinq/v17/
 GraphLinq/GraphLinqTests/obj/
+GraphLinq/GraphLinq/bin/
+GraphLinq/TestApp/bin/
+GraphLinq/TestApp/obj/

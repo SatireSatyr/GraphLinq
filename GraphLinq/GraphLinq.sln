@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLinq", "GraphLinq\Grap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLinqTests", "GraphLinqTests\GraphLinqTests.csproj", "{8A9B4BDD-9125-4A2A-9A59-8EDCA475DB4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{A761E161-8756-487D-911A-1AFA99B647C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D5CDE44-3425-4DDA-AF81-016009A78B06} = {7D5CDE44-3425-4DDA-AF81-016009A78B06}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{8A9B4BDD-9125-4A2A-9A59-8EDCA475DB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A9B4BDD-9125-4A2A-9A59-8EDCA475DB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A9B4BDD-9125-4A2A-9A59-8EDCA475DB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A761E161-8756-487D-911A-1AFA99B647C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A761E161-8756-487D-911A-1AFA99B647C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A761E161-8756-487D-911A-1AFA99B647C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A761E161-8756-487D-911A-1AFA99B647C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
